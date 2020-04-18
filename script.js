@@ -33,6 +33,9 @@ function generatePassword() {
 
     else {
       var confirmNumbers
+      var comfirmLowerCase
+      var comfirmUpperCase
+      var comfirmSpecialCharacters
     }
 }
 
