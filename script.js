@@ -20,6 +20,10 @@ function writePassword() {
 function generatePassword() {
 
   var passwordLength = prompt("How many characters would you like your password to be? Password must contain between 8-128 characters.")
+
+  if (!passwordLength) {
+    alert("Please enter value")
+  }
 }
 
 // Add event listener to generate button
