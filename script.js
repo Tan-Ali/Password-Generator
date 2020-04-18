@@ -32,11 +32,10 @@ function generatePassword() {
     }
 
     else {
-      var confirmNumbers
-      var comfirmLowerCase
-      var comfirmUpperCase
-      var comfirmSpecialCharacters
-    }
+      var confirmNumbers = comfirm("Would you like numbers in your password?");
+      var comfirmLowerCase = confirm(Would you like lower case letters in your password?)
+      var comfirmUpperCase = confirm("Would you like upper case letters in your password?")
+      var comfirmSpecialCharacters = confirm("would you like special characters in your password?")    }
 }
 
 // Add event listener to generate button
