@@ -24,8 +24,16 @@ function generatePassword() {
   if (!passwordLength) {
     alert("Please enter value");
     return;
-    
-  }
+    }
+
+    else if (passwordLength < 8 || passwordLength > 128) {
+      alert("Please enter a value between 8-128 characters.");
+      return;
+    }
+
+    else {
+      var confirmNumbers
+    }
 }
 
 // Add event listener to generate button
