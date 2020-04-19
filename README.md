@@ -34,3 +34,9 @@ After user inputs number of characters they want (between 8-128) they are asked 
 ![upperCase](assets/upperCase.png)
 
 ![specialCharacters](assets/specialCharacters.png)
+
+Once they have confirmed/canceled all four questions, their password will be generated based on how they answered the questions.
+
+The following picture is an example of the user wanting 10 characters and confirming all four questions:
+
+![password](assets/password.png)
