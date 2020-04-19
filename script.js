@@ -32,9 +32,9 @@ function generatePassword() {
     }
     else {
       var confirmNumbers = confirm("Would you like numbers in your password?");
-      var comfirmLowerCase = confirm("Would you like lower case letters in your password?");
-      var comfirmUpperCase = confirm("Would you like upper case letters in your password?");
-      var comfirmSpecialCharacters = confirm("Would you like special characters in your password?");
+      var confirmLowerCase = confirm("Would you like lower case letters in your password?");
+      var confirmUpperCase = confirm("Would you like upper case letters in your password?");
+      var confirmSpecialCharacters = confirm("Would you like special characters in your password?");
     
     if (!confirmNumbers && !confirmLowerCase && !confirmUpperCase && !confirmSpecialCharacters) {
       alert("Please try again. Must confirm at least one criteria.");
@@ -51,8 +51,9 @@ function generatePassword() {
         var randomCharacter = allCharacters[Math.floor(Math.random() * allCharacters.length)]
         password = password + randomCharacter
       }
-      return password;
-    }}
+      
+    } return password;
+  }
 }
 
 // Add event listener to generate button
