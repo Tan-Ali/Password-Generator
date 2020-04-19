@@ -24,3 +24,13 @@ To do this, I created **if/else/else statements** that also included a **for loo
 Starting page when "Generate Password" is clicked:
 
 ![creatingPassword](assets/creatingPassword.png)
+
+After user inputs number of characters they want (between 8-128) they are asked four questions.  They can confirm or cancel for each question but they must confirm at least one:
+
+![numbers](assets/numbers.png)
+
+![lowerCase](assets/lowerCase.png)
+
+![upperCase](assets/upperCase.png)
+
+![specialCharacters](assets/specialCharacters.png)
