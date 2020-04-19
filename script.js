@@ -44,6 +44,7 @@ function generatePassword() {
       var allCharacters= [];
       if (confirmNumbers) allCharacters = allCharacters.concat(numbers);
       if (confirmLowerCase) allCharacters = allCharacters.concat(lowerCase);
+      if (confirmUpperCase) allCharacters = allCharacters.concat(upperCase)
       
     }}
 }
