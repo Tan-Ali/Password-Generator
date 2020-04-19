@@ -40,7 +40,10 @@ function generatePassword() {
     if (!confirmNumbers && !confirmLowerCase && !confirmUpperCase && !confirmSpecialCharacters) {
       alert("Please try again. Must confirm at least one criteria.");
     }
-    
+    else {
+      var allCharacters= [];
+      if (confirmNumbers) allCharacters = allCharacters.concat(numbers);
+      if 
     }}
 }
 
