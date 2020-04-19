@@ -52,6 +52,7 @@ function generatePassword() {
         var randomCharacter = allCharacters[Math.floor(Math.random() * allCharacters.length)]
         password = password + randomCharacter
       }
+      return password;
     }}
 }
 
