@@ -48,6 +48,7 @@ function generatePassword() {
       if (confirmSpecialCharacters) allCharacters = allCharacters.concat(specialCharacters);
 
       for (var i = 0; i <= passwordLength; i++) {
+        var password = " "
         var randomCharacter = allCharacters[Math.random() * allCharacters.length)]
       }
     }}
