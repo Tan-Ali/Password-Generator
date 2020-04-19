@@ -23,4 +23,4 @@ To do this, I created **if/else/else statements** that also included a **for loo
 
 Starting page when "Generate Password" is clicked:
 
-![creatingPassword](assets/images/creatingPassword.png)
+![creatingPassword](assets/creatingPassword.png)
