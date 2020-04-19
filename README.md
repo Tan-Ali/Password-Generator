@@ -19,7 +19,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 ## How it Works
-To do this, I created **if/else/else statements** that also included a **for loop**.  The different **confirms** and **prompts** include **how many characters there were** having **Numbers**, **upperCase**, **lowerCase**, and **specialCharacters**.  The user must select confirm for at **least one of these questions**.  Below are pictures of each event as the user uses the password generator.
+To do this, I created **if/else/else statements** that also included a **for loop**.  The different **confirms** and **prompts** include **how many characters the user wanted**, having **Numbers**, **upperCase**, **lowerCase**, and **specialCharacters**.  The user must select confirm for at **least one of these questions**.  Below are pictures of each event as the user uses the password generator.
 
 Starting page when "Generate Password" is clicked:
 
