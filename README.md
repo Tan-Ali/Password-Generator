@@ -31,7 +31,7 @@ After user inputs number of characters they want (between 8-128) they are asked 
 
 ![lowerCase](assets/lowerCase.png)
 
-![upperCase](assets/upperCase.png)
+![upperCase](assets/Uppercase.png)
 
 ![specialCharacters](assets/specialCharacters.png)
 
